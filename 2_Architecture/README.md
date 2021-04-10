@@ -1,8 +1,10 @@
 # Architecture
 
-* Add UML Diagrams
-* For information about UML Diagrams refer: [UML Diagrams](https://www.uml-diagrams.org/uml-25-diagrams.html)
-## Tools 
-* [Draw.io](https://app.diagrams.net/)
-* [Creately](https://app.creately.com/diagram/create)
-* or any other free tools
+* High Level Behavioral Diagram 
+
+![HLBehavioral](https://github.com/KrShivanshu/CMiniProject/blob/main/6_ImagesAndVideos/Architecture/High%20Level%20Behavioral%20Diagram.jpg)
+
+* High Level Structure Diagram
+
+![High-Level-Structural-Diagram](https://github.com/KrShivanshu/CMiniProject/blob/main/6_ImagesAndVideos/Architecture/High%20Level%20Structural%20Diagram.jpg)
+
