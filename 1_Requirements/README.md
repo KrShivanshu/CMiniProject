@@ -7,11 +7,11 @@
 ## Process Overview
 The process of conversion depends on the specific situation and the intended purpose. This may be governed by regulation, contract, technical specifications or other published standards. Engineering judgment may include such factors as:
 
-*        The precision and accuracy of measurement and the associated uncertainty of measurement.
-*        The statistical confidence interval or tolerance interval of the initial measurement.
-*        The number of significant figures of the measurement.
-*        The intended use of the measurement including the engineering tolerances.
-*        Historical definitions of the units and their derivatives used in old measurements; e.g., international foot vs. US survey foot.
+*   The precision and accuracy of measurement and the associated uncertainty of measurement.
+*   The statistical confidence interval or tolerance interval of the initial measurement.
+*   The number of significant figures of the measurement.
+*   The intended use of the measurement including the engineering tolerances.
+*   Historical definitions of the units and their derivatives used in old measurements; e.g., international foot vs. US survey foot.
 
 Some conversions from one system of units to another need to be exact, without increasing or decreasing the precision of the first measurement. This is sometimes called **soft conversion**. It does not involve changing the physical configuration of the item being measured.
 
@@ -41,6 +41,7 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 
     *   User knows what he/she wants from the application
 
+
 *   Explanation
 
 ## SWOT ANALYSIS
@@ -63,7 +64,7 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 *   Run the application, fill the options, give the value and find result.
 
 ## Detail requirements
-### High Level Requirements: 
+### High Level Requirements:
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
 | HR01 | Able to convert any units like length,temperature, volume, weight, area and time | TBD-S1 | Pending | 
