@@ -1,79 +1,67 @@
 # Requirements
 
 ## Introduction
- * Unit conversion is used in daily life for research purpose, education purpose, manufacturing and in many other fields. So it is neccessary to have a software that can help in accurate and fast conversion of units from one to another.
- * I chose this topic to build a light and reliable application for unit conversion purpose. 
+*   Unit conversion is used in daily life for research purpose, education purpose, manufacturing and in many other fields. So it is neccessary to have a software that can help in accurate and fast conversion of units from one to another.
+*   I chose this topic to build a light and reliable application for unit conversion purpose. 
 
 ## Process Overview
 The process of conversion depends on the specific situation and the intended purpose. This may be governed by regulation, contract, technical specifications or other published standards. Engineering judgment may include such factors as:
 
-* The precision and accuracy of measurement and the associated uncertainty of measurement.
-* The statistical confidence interval or tolerance interval of the initial measurement.
-* The number of significant figures of the measurement.
-* The intended use of the measurement including the engineering tolerances.
-* Historical definitions of the units and their derivatives used in old measurements; e.g., international foot vs. US survey foot.
+*      The precision and accuracy of measurement and the associated uncertainty of measurement.
+*      The statistical confidence interval or tolerance interval of the initial measurement.
+*      The number of significant figures of the measurement.
+*      The intended use of the measurement including the engineering tolerances.
+*      Historical definitions of the units and their derivatives used in old measurements; e.g., international foot vs. US survey foot.
 
 Some conversions from one system of units to another need to be exact, without increasing or decreasing the precision of the first measurement. This is sometimes called **soft conversion**. It does not involve changing the physical configuration of the item being measured.
 
 By contrast, a **hard conversion** or an **adaptive conversion** may not be exactly equivalent. It changes the measurement to convenient and workable numbers and units in the new system. It sometimes involves a slightly different configuration, or size substitution, of the item.Nominal values are sometimes allowed and used.
 
-
-
 ## Research
-### Benefits:
-Light weight and can be accesed from any device 
+### Benefits
+*   Light weight and can be accesed from any device 
+*   Help researchers : It can help them find results with high accuracy of different unit types
+*   Fast : Compute the results within fraction of seconds
+*   Education : Students can be benefitted with this. They can use it for learning purpose.
 
-### Help researchers
-It can help them find results with high accuracy of different unit types
-
-### Fast 
-Compute the results within fraction of seconds
-
-### Education
-Students can be benefitted with this. They can use it for learning purpose.
-
-
-### AGE:
+### AGE
 
 |1960s   |  1980s | 2000  | Present  |
 |---|---|---|---|
 |  Calculators with small keyboards having paper tapes for output display. | Calculator with 12-digit display in red LED and with integrated circuits.  | Introduction of graphing calculators, affordable, dual powered with liquid display.|  Advanced calculators which can handle higher level math which is ideal for everything from economics to computer science. |
 
-### COST:
+### COST
 |  1960s | 1980s  |  2000 | Present  |
 |---|---|---|---|
 |  360$-400$ | 700$-800$  |   20$-30$|  10$-12$ |
 
-
 ## Defining Our System
-### Assumptions:
-* Data filled or expected result cannot be greater then maximum data that a data type can store.
-* User knows what he/she wants from the application
-
-### Explanation:
+*   Assumptions
+    *   Data filled or expected result cannot be greater then maximum data that a data type can store.
+    *   User knows what he/she wants from the application
+*   Explanation
 
 ## SWOT ANALYSIS
 ![SWOT Analysis]()
 
 ## 4W&#39;s and 1&#39;H
-
 ## Who:
-* For researchers, manufactures, educators and students.
+*   For researchers, manufactures, educators and students.
 
 ## What:
-* A unit conertor is a tool used to convert a unit from one to another like: Kilometer to Meter, Celsius to Kelvin, etc.
+*   A unit conertor is a tool used to convert a unit from one to another like: Kilometer to Meter, Celsius to Kelvin, etc.
 
 ## Where:
-* Can be used in manufacturing company, schools, colleges, examination hall and research labs.
+*   Can be used in manufacturing company, schools, colleges, examination hall and research labs.
 
 ## When:
-* When we want to find what's the value  (X Celsius in fahrenheit), (Y kilometer in meter),etc.
+*   When we want to find what's the value  (X Celsius in fahrenheit), (Y kilometer in meter),etc.
 
 ## How:
-* Run the application, fill the options, give the value and find result.
+*   Run the application, fill the options, give the value and find result.
 
-# Detail requirements
-## High Level Requirements: 
+## Detail requirements
+### High Level Requirements: 
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
 | HR01 | Able to convert any units like length,temperature, volume, weight, area and time | TBD-S1 | Pending | 
@@ -81,7 +69,7 @@ Students can be benefitted with this. They can use it for learning purpose.
 | HR03 | User to resolve the errors if the calculations are impossible,then the calculator must display information helping the situation. | TBD-S1 | Pending |
 | HR04 | After performing one calculation user can perform another caluclation by using the result obtained in previous calculation. | TBD-S1 | Pending |
 
-##  Low level Requirements:
+### Low level Requirements:
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
