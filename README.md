@@ -1,9 +1,9 @@
 # SDLC Activity Based Learning
 ![Banner]()
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
-To be added | To be added | To be added | To be added
+Build | Code Quality | Unity | Valgrind | Git Inspector
+------|----------|-------|----------|------------
+[![C-Build](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml) | [![cppcheck](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml) | [![Unit-Test](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml) | [![Valgrind](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml) | To be added
 
 
 ## Folder Structure
