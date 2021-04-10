@@ -64,7 +64,7 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 *   Run the application, fill the options, give the value and find result.
 
 ## Detail requirements
-### High Level Requirements:
+### High Level Requirements
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
 | HR01 | Able to convert any units like length,temperature, volume, weight, area and time | TBD-S1 | Pending | 
@@ -72,7 +72,7 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 | HR03 | User to resolve the errors if the calculations are impossible,then the calculator must display information helping the situation. | TBD-S1 | Pending |
 | HR04 | After performing one calculation user can perform another caluclation by using the result obtained in previous calculation. | TBD-S1 | Pending |
 
-### Low level Requirements:
+### Low level Requirements
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
