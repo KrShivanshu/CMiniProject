@@ -7,11 +7,11 @@
 ## Process Overview
 The process of conversion depends on the specific situation and the intended purpose. This may be governed by regulation, contract, technical specifications or other published standards. Engineering judgment may include such factors as:
 
-*      The precision and accuracy of measurement and the associated uncertainty of measurement.
-*      The statistical confidence interval or tolerance interval of the initial measurement.
-*      The number of significant figures of the measurement.
-*      The intended use of the measurement including the engineering tolerances.
-*      Historical definitions of the units and their derivatives used in old measurements; e.g., international foot vs. US survey foot.
+*        The precision and accuracy of measurement and the associated uncertainty of measurement.
+*        The statistical confidence interval or tolerance interval of the initial measurement.
+*        The number of significant figures of the measurement.
+*        The intended use of the measurement including the engineering tolerances.
+*        Historical definitions of the units and their derivatives used in old measurements; e.g., international foot vs. US survey foot.
 
 Some conversions from one system of units to another need to be exact, without increasing or decreasing the precision of the first measurement. This is sometimes called **soft conversion**. It does not involve changing the physical configuration of the item being measured.
 
@@ -39,25 +39,26 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 *   Assumptions
     *   Data filled or expected result cannot be greater then maximum data that a data type can store.
     *   User knows what he/she wants from the application
+    
 *   Explanation
 
 ## SWOT ANALYSIS
 ![SWOT Analysis]()
 
 ## 4W&#39;s and 1&#39;H
-## Who:
+## Who
 *   For researchers, manufactures, educators and students.
 
-## What:
+## What
 *   A unit conertor is a tool used to convert a unit from one to another like: Kilometer to Meter, Celsius to Kelvin, etc.
 
-## Where:
+## Where
 *   Can be used in manufacturing company, schools, colleges, examination hall and research labs.
 
-## When:
+## When
 *   When we want to find what's the value  (X Celsius in fahrenheit), (Y kilometer in meter),etc.
 
-## How:
+## How
 *   Run the application, fill the options, give the value and find result.
 
 ## Detail requirements
