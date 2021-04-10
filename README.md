@@ -1,8 +1,6 @@
 # SDLC Activity Based Learning
 ![Banner]()
 
-Visit [Pages for Report -optional](using github.io option)
-
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
 To be added | To be added | To be added | To be added
