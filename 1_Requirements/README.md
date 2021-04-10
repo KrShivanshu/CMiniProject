@@ -38,8 +38,9 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 ## Defining Our System
 *   Assumptions
     *   Data filled or expected result cannot be greater then maximum data that a data type can store.
+
     *   User knows what he/she wants from the application
-    
+
 *   Explanation
 
 ## SWOT ANALYSIS
