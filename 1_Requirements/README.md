@@ -41,9 +41,12 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
     *   User knows what he/she wants from the application
 
 *   Explanation
+    *   Firstly unit type should be selected
+    *   Secondly **from** and **to** value should be selected 
+    *   Then, operand should be filled and at last press enter to find the result
 
 ## SWOT ANALYSIS
-![SWOT Analysis]()
+![SWOT Analysis](https://github.com/KrShivanshu/CMiniProject/blob/main/6_ImagesAndVideos/Requirements/SWOT%20Analysis.jpg)
 
 ## 4W&#39;s and 1&#39;H
 ## Who
