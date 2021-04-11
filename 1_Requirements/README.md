@@ -38,9 +38,7 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 ## Defining Our System
 *   Assumptions
     *   Data filled or expected result cannot be greater then maximum data that a data type can store.
-
     *   User knows what he/she wants from the application
-
 
 *   Explanation
 
@@ -65,7 +63,7 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 
 ## Detail requirements
 ### High Level Requirements
-| ID | Description | Category | Status | 
+| ID | Description | Category | Status (Implemented/ InProgress/ Future) | 
 | ----- | ----- | ------- | ---------|
 | HR01 | Able to convert any units like length,temperature, volume, weight, area and time | TBD-S1 | Pending | 
 | HR02 | In any situation, the calculator must produce a correct result defined by the well-known arithmetic rules. | TBD-S1 | Pending |
@@ -74,7 +72,7 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 
 ### Low level Requirements
  
-| ID | Description | HLR ID | Status (Implemented/Future) |
+| ID | Description | HLR ID | Status (Implemented/ InProgress/ Future) |
 | ------ | --------- | ------ | ----- |
 | LR01 | Can display options for selecting unit type and recieve input for it | HR01 | TBD-S1 |
 | LR02 | Can display options for unit to be converted **from** and recieve input for it | HR01 | TBD-S1 |
