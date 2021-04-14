@@ -1,12 +1,13 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = Unit_Convertor
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-src/calculator_operations.c
+SRC = main.c\
+src/length.c\
+src/temperature.c
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
@@ -24,7 +25,7 @@ INC	= -Iinc\
 INCLUDE_LIBS = -lcunit
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
@@ -40,7 +41,7 @@ all: $(SRC) $(BUILD)
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+	./$(PROJECT_OUTPUT).out 
 
 # Document the code using Doxygen
 doc:

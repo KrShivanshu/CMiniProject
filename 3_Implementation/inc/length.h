@@ -15,76 +15,29 @@
 #include <stdlib.h>
 
 /**
- * @brief converts any length unit to Meter
+ * @brief finds factor for from and to unit
  * 
- * @param op 
- * @return long double 
+ * @param x
+ * @return double 
  */
-long double meter(long double op );
+double factor(int x);
 
 /**
- * @brief converts any unit to Kilometer
+ * @brief convert the operand using factor to required result
  * 
- * @param op 
- * @return long double 
+ * @param op - operand
+ * @param from 
+ * @param to 
+ * @return double 
  */
-long double kilometer(long double op );
+double convert_length(double op, int from, int to);
 
 /**
- * @brief converts any unit to centimeter
+ * @brief lenght unit from and to options
  * 
- * @param op 
- * @return long double 
+ * @param c - string 
+ * @return int 
  */
-long double centimeter(long double op );
-
-
-/**
- * @brief converts any unit to Millimeter
- * 
- * @param op 
- * @return long double 
- */
-long double millimeter(long double op );
-
-/**
- * @brief converts any unit to Nanometer
- * 
- * @param op 
- * @return long double 
- */
-long double nanometer(long double op );
-
-/**
- * @brief converts any unit to Micrometer
- * 
- * @param op 
- * @return long double 
- */
-long double micrometer(long double op );
-
-/**
- * @brief converts any unit to Mile
- * 
- * @param op 
- * @return long double 
- */
-long double mile(long double op );
-
-/**
- * @brief converts any unit to Foot
- * 
- * @param op 
- * @return long double 
- */
-long double foot(long double op );
-
-/**
- * @brief converts any unit to Inch
- * 
- * @param op 
- * @return long double 
- */
-long double inch(long double op );
+int length_unit(char *c);
 
 #endif
