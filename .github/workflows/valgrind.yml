@@ -18,4 +18,4 @@ jobs:
     - name: make test
       run: |
         make test -C 3_Implementation/
-        valgrind ./3_Implementation/build/Test_Calculator.out
+        valgrind ./3_Implementation/build/Unit_Convertor.out
