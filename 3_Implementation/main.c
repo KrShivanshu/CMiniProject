@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <length.h>
-#include<temperature.h>
+#include <temperature.h>
+#include <volume.h>
+#include "volume.h"
+#include "area.h"
+#include "weight.h"
+#include "time.h"
 
 enum type{length=1,temperature,volume,area,weight,time};
 
@@ -15,49 +20,48 @@ int main()
     switch(unit_type)
     {
         case length: 
-            unit_from = length_unit("from");        
-            unit_to = length_unit("to"); 
+            unit_from = length_unit_options("from",0,1);        
+            unit_to = length_unit_options("to",0,1); 
             op = operand();
             ans = convert_length(op,unit_from,unit_to);
             printf("%-0.15lf",ans);
             break;
         case temperature:
-            unit_from = temperature_unit("from");        
-            unit_to = temperature_unit("to"); 
+            unit_from = temperature_unit_options("from",0,1);        
+            unit_to = temperature_unit_options("to",0,1); 
             op = operand();
             ans = convert_temperature(op,unit_from,unit_to);
             printf("%-0.5lf",ans);
             break;
-            /*
         case volume:
-            unit_from = length_unit();        
-            unit_to = length_unit(); 
+            unit_from = volume_unit_options("from",0,1);        
+            unit_to = volume_unit_options("to",0,1); 
             op = operand();
             ans = convert_volume(op,unit_from,unit_to);
-            printf("%-0.5lf",ans);
+            printf("%-0.15lf",ans);
             break;
+            
         case area:
-            unit_from = length_unit();        
-            unit_to = length_unit(); 
+            unit_from = area_unit_options("from",0,1);        
+            unit_to = area_unit_options("to",0,1); 
             op = operand();
             ans = convert_area(op,unit_from,unit_to);
-            printf("%-0.5lf",ans);
+            printf("%-0.15lf",ans);
             break;
         case weight:
-            unit_from = length_unit();        
-            unit_to = length_unit(); 
+            unit_from = weight_unit_options("from",0,1);        
+            unit_to = weight_unit_options("to",0,1); 
             op = operand();
             ans = convert_weight(op,unit_from,unit_to);
-            printf("%-0.5lf",ans);
+            printf("%-0.15lf",ans);
             break;
         case time:
-            unit_from = length_unit();        
-            unit_to = length_unit(); 
+            unit_from = time_unit_options("from",0,1);        
+            unit_to = time_unit_options("to",0,1); 
             op = operand();
             ans = convert_time(op,unit_from,unit_to);
-            printf("%-0.5lf",ans);
+            printf("%-0.15lf",ans);
             break;
-            */
     }
     return 0;
 }
@@ -85,6 +89,5 @@ double operand()
     double op;
     printf("Enter the operand:\n");
     scanf("%lf",&op);
-    //printf("%lf",op);
     return op;
 }

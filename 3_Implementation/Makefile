@@ -7,11 +7,20 @@ BUILD = build
 # All source code files
 SRC = main.c\
 src/length.c\
-src/temperature.c
+src/temperature.c\
+src/volume.c\
+src/area.c\
+src/weight.c\
+src/time.c\
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
-test/test_calculator_operations.c\
+TEST_SRC = src/length.c\
+src/temperature.c\
+src/volume.c\
+src/area.c\
+src/weight.c\
+src/time.c\
+test/test.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
@@ -62,7 +71,7 @@ doc:
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
 	./$(TEST_OUTPUT)
 
 # Remove all the built files, invoke by `make clean`
@@ -70,7 +79,7 @@ clean:
 	$(RM) $(call FixPath,$(BUILD)/*)
 	make clean -C doc
 	rmdir $(BUILD) $(DOCUMENTATION_OUTPUT)
-#	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
 # Create new build folder if not present
 $(BUILD):

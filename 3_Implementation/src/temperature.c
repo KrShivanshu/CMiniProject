@@ -1,18 +1,19 @@
 #include "temperature.h"
 
-int temperature_unit(char *c)
+int temperature_unit_options(char *c,int x,int flag)
 {
-    int unit; 
+    int unit_selected=x; 
         printf("Select %s:\n",c);
         printf("1 - Celsius\n");
         printf("2 - Kelvin\n");
         printf("3 - Fahrenheit\n");
-        scanf("%d",&unit);
-        if(unit<1||unit>3){
+        if(flag)
+        scanf("%d",&unit_selected);
+        if((unit_selected<1||unit_selected>3)&&flag){
             printf("Wrong option entered, try again!\n");
-            unit = temperature_unit(c);
+            unit_selected = temperature_unit_options(c,0,1);
         }
-        return unit;
+        return unit_selected;
 }
 
 double convert_temperature(double op, int from, int to)

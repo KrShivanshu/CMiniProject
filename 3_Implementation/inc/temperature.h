@@ -27,10 +27,12 @@ double convert_temperature(double op, int from, int to);
 /**
  * @brief temperature unit from and to options
  * 
- * @param c - string 
+ * @param flag - to decide if to scan input or not
+ * @param x - default value for unit_selected var
+ * @param c - string will be either "from" or "to"
  * @return int 
  */
-int temperature_unit(char *c);
+int temperature_unit_options(char *c,int x,int flag);
 
 #endif
 

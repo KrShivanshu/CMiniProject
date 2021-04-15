@@ -1,8 +1,8 @@
 #include <length.h>
 
-int length_unit(char *c)
+int length_unit_options(char *c,int x, int flag)
 {
-    int unit; 
+    int unit_selected=x; 
         printf("Select %s:\n",c);
         printf("1 - Meter\n");
         printf("2 - Kilometer\n");
@@ -13,22 +13,23 @@ int length_unit(char *c)
         printf("7 - Mile\n");
         printf("8 - Foot\n");
         printf("9 - Inch\n");
-        scanf("%d",&unit);
-        if(unit<1||unit>9){
+        if(flag)
+        scanf("%d",&unit_selected);
+        if((unit_selected<1||unit_selected>9)&&flag==1){
             printf("Wrong option entered, try again!\n");
-            unit = length_unit(c);
+            unit_selected = length_unit_options(c,1,1);
         }
-        return unit;
+        return unit_selected;
 }
 
 double convert_length(double op, int from, int to)
 {
-    double fac_to = factor(to);
-    double fac_from = factor(from);
+    double fac_to = standard_length_unit(to);
+    double fac_from = standard_length_unit(from);
     return op*fac_from/fac_to;
 }
 
-double factor(int x)
+double standard_length_unit(int x)
 {
     switch(x)
     {
@@ -50,5 +51,7 @@ double factor(int x)
             return 0.3048;
         case 9:
             return 0.0254;
+        default:
+            return 0;
     }
 }
