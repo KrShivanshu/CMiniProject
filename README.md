@@ -38,7 +38,7 @@ SF Id. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases
 ## Tools used
 
 1.  `Unity`- for unit testing
-2.  `Valgrind & `CPP-check` - to analyze the code
+2.  `Valgrind` & `CPP-check` - to analyze the code
 3.  `Doxygen` - for documenting the file
 4.  `Makefile` - to build, test, run and clean the program
 
