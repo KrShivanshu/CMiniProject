@@ -135,6 +135,10 @@ void test_time(void)
     TEST_ASSERT_EQUAL(0, standard_time_unit(10));
 }
 
+/**
+ * @brief tests the functions available in toString.c file
+ * 
+ */
 void test_toString(void)
 {
     TEST_ASSERT_EQUAL("Wrong Unit", lengthTypeFromIntToString(0));

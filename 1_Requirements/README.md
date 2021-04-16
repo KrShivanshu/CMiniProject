@@ -68,23 +68,23 @@ By contrast, a **hard conversion** or an **adaptive conversion** may not be exac
 ### High Level Requirements
 | ID | Description | Category | Status (Implemented/ InProgress/ Future) | 
 | ----- | ----- | ------- | ---------|
-| HR01 | Able to convert any units like length,temperature, volume, weight, area and time | TBD-S1 | Pending | 
-| HR02 | In any situation, the calculator must produce a correct result defined by the well-known arithmetic rules. | TBD-S1 | Pending |
-| HR03 | User to resolve the errors if the calculations are impossible,then the calculator must display information helping the situation. | TBD-S1 | Pending |
-| HR04 | After performing one calculation user can perform another caluclation by using the result obtained in previous calculation. | TBD-S1 | Pending |
+| HR01 | Able to convert any units like length,temperature, volume, weight, area and time | Functional | Implemented | 
+| HR02 | In any situation, the calculator must produce a correct result defined by the well-known arithmetic rules. | Functional | Implemented |
+| HR03 | User to resolve the errors if the calculation for conversions are impossible,then the convertor must display information helping the situation. | Non-Functional | Future |
+| HR04 | After performing one calculation user can perform another caluclation by using the result obtained in previous calculation. | Functional | InProgress |
 
 ### Low level Requirements
  
 | ID | Description | HLR ID | Status (Implemented/ InProgress/ Future) |
 | ------ | --------- | ------ | ----- |
-| LR01 | Can display options for selecting unit type and recieve input for it | HR01 | TBD-S1 |
-| LR02 | Can display options for unit to be converted **from** and recieve input for it | HR01 | TBD-S1 |
-| LR03 | Able to give options to select the unit to be converted **to** and successively recieve input for it  | HR01 | FUTURE |
-| LR04 | Recieve input for operand to be converted | HR01 | TBD-S1 |
-| LR05 | Able to compute, convert and display the results | HR01 | TBD-S1 |
-| LR06 | Should calculate the result upto minimal decimal point | HR02 | TBD-S1 |
-| LR06.1 | Shouldn't round off the answer and display the result with accuracy & precision | HR02 | TBD-S1 |
-| LR07 | If the answer exceeds the maximum value it can store, display an error message to the user | HR02,HR03 | TBD-S1 |
-| LR07.1 | Ask the user to reduce the size of operand | HR02,HR03 | TBD-S1 |
-| LR08 | Should able to store the result for future use  | HR04 | TBD-S1 |
-| LR08.1 | Displays options to perform  action on the stored result | HR04 | TBD-S1 |
+| LR01 | Can display options for selecting unit type and recieve input for it | HR01 | Implemented |
+| LR02 | Can display options for unit to be converted **from** and recieve input for it | HR01 | Implemented |
+| LR03 | Able to give options to select the unit to be converted **to** and successively recieve input for it  | HR01 | Implemented |
+| LR04 | Recieve input for operand to be converted | HR01 | Implemented |
+| LR05 | Able to compute, convert and display the results | HR01 | Implemented |
+| LR06 | Should calculate the result upto minimal decimal point | HR02 | Implemented |
+| LR06.1 | Shouldn't round off the answer and display the result with accuracy & precision | HR02 | Implemented |
+| LR07 | If the answer exceeds the maximum value it can store, display an error message to the user | HR02,HR03 | Future |
+| LR07.1 | Ask the user to reduce the size of operand | HR02,HR03 | Future |
+| LR08 | Should able to store the result for future use  | HR04 | In Progress |
+| LR08.1 | Displays options to perform  action on the stored result | HR04 | Future |
