@@ -24,7 +24,7 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`264136` | Kumar Shivanshu  | All    | 2     | 1   | 6   | 6     
+`264136` | Kumar Shivanshu  | All    | 2     | 2   | 6   | 6     
    
 ## Learning Resources
 1.  [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

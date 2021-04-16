@@ -76,6 +76,10 @@ test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
 	./$(TEST_OUTPUT)
 
+# check code coverage
+coverage:$(PROJECT_NAME)
+	gcov -a main.c
+
 # Remove all the built files, invoke by `make clean`
 clean:
 	$(RM) $(call FixPath,$(BUILD)/*)
