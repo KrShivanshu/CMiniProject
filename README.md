@@ -35,7 +35,7 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `264136` | Kumar Shivanshu  | All    | 2     | 2   | 6   | 6     
 
-# Tools used
+## Tools used
 
 1.  `Unity`- for unit testing
 2.  `valgrind` & `cpp-check` - to analyze the code
@@ -48,3 +48,4 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 3.  [git inspector](https://github.com/ejwa/gitinspector.git)
 4.  [github workflow](https://docs.github.com/en/actions/learn-github-action)
 5.  [Reference](https://www.unitconverters.net/)
+6.  Took inspiration from many other similar projects
