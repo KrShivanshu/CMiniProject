@@ -5,9 +5,10 @@
 | **Test ID** | **Description**                                              | **Exp IN**   | **Exp OUT**      | **Actual Out** |  
 |-------------|--------------------------------------------------------------|------------  |------------------|----------------|
 |  H_01       |  Proceed only when right input is given   |      0       |0 is not allowed. | 0              | 
-|  H_02       |  Take input for options within range  |      5       | 5 | 5              |
-|  H_03       |  Convert units based on sign   | -8 | -800 | -800 |
-
+|  H_02       |  Return what receive within range in options menu  |      5       | 5 | 5              |
+|  H_03       |  Maintain the sign of input in result  | op = -8 | -800 | -800 |
+|  H_04       |  Recieve input of operand as double and options as integer | op = 100.25, unit_selected = 5 | Proceed | Proeceeded |
+|  H_04       |   | op = @ , unit_selected = t | Error | Error |
 
 ## Table no: Low level test plan
 
