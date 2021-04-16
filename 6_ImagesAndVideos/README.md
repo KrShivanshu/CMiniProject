@@ -1,3 +1,3 @@
 # images and videos
 
-* Add any images or Videos related to the implemented project
+* Any images or Videos related to the implemented project will be added here
