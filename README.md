@@ -1,5 +1,7 @@
 # Unit Convertor
 
+Converts unit x to y of length,temperature,volume,area,weight and time type
+
 Build | Code Quality | Unity | Valgrind | Codacy
 ------|----------|-------|----------|------------
 [![C/C++ CI](https://github.com/KrShivanshu/CMiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/c-cpp.yml) | [![cppcheck](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml) | [![Unit testing](https://github.com/KrShivanshu/CMiniProject/actions/workflows/unit-test.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/unit-test.yml) | [![Valgrind](https://github.com/KrShivanshu/CMiniProject/actions/workflows/valgrind.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/valgrind.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f1f3f28ea6bc4f24bf2a16c0d0b46551)](https://www.codacy.com/gh/KrShivanshu/CMiniProject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KrShivanshu/CMiniProject&amp;utm_campaign=Badge_Grade)
