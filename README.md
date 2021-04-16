@@ -8,7 +8,7 @@ Build | Code Quality | Unity | Valgrind | Coverage | Codacy
 ![Banner](https://github.com/KrShivanshu/CMiniProject/blob/main/6_ImagesAndVideos/Geometric%20Cubes%20Games.jpg)
 
 ## Introduction
-Converts unit x to y of length, temperature, volume, area, weight and time type
+Converts unit x to y of length, temperature, volume, area, weight, and time type
 
 ### Features
 - [ ] Length Conversion
@@ -31,14 +31,14 @@ Folder             | Description
 
 ## Contributors List and Summary
 
-SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+SF Id. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `264136` | Kumar Shivanshu  | All    | 2     | 2   | 6   | 6     
 
 ## Tools used
 
 1.  `Unity`- for unit testing
-2.  `valgrind` & `cpp-check` - to analyze the code
+2.  `Valgrind & `CPP-check` - to analyze the code
 3.  `Doxygen` - for documenting the file
 4.  `Makefile` - to build, test, run and clean the program
 
