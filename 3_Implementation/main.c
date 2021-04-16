@@ -12,7 +12,7 @@
  * @brief unit type enumaration starting from 1
  * 
  */
-enum type{length=1,temperature,volume,area,weight,time};
+typedef enum type{length=1,temperature,volume,area,weight,time}type;
 
 /**
  * @brief displays unit types options
