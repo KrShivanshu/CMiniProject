@@ -17,6 +17,7 @@ int area_unit_options(char *c,int x, int flag)
         scanf("%d",&unit_selected);
         if((unit_selected<1||unit_selected>9)&&flag==1){
             printf("Wrong option entered, try again!\n");
+            while(fgetc(stdin) != '\n');
             unit_selected = area_unit_options(c,1,1);
         }
         return unit_selected;

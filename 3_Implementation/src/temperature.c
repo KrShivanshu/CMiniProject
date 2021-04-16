@@ -11,6 +11,7 @@ int temperature_unit_options(char *c,int x,int flag)
         scanf("%d",&unit_selected);
         if((unit_selected<1||unit_selected>3)&&flag){
             printf("Wrong option entered, try again!\n");
+            while(fgetc(stdin) != '\n');
             unit_selected = temperature_unit_options(c,0,1);
         }
         return unit_selected;

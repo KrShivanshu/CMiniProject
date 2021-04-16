@@ -100,6 +100,7 @@ int unit_type_display(int x, int flag)
     if((unit_type<1||unit_type>6)&&flag)
     {
         printf("Wrong option entered, try again!\n");
+        while(fgetc(stdin) != '\n');
         unit_type=unit_type_display(0,1);
     }
     return unit_type;
