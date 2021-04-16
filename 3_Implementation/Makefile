@@ -25,6 +25,7 @@ src/toString.c\
 test/test.c\
 unity/unity.c\
 
+# Test output destination
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
@@ -76,9 +77,22 @@ test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
 	./$(TEST_OUTPUT)
 
-# check code coverage
+# Check code coverage
 coverage:$(PROJECT_NAME)
 	gcov -a main.c
+
+# For analyzing the code
+cppcheck:
+	cppcheck --enable=all $(SRC) main.c
+
+# To debug the code
+debug:
+	gcc -I $(INC) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
+	gdb $(PROJ_NAME).$(EXEC)
+
+# To check memory leakage
+memcheck:
+	valgrind ./$(PROJ_NAME).$(EXEC)
 
 # Remove all the built files, invoke by `make clean`
 clean:

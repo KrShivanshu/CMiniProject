@@ -128,6 +128,13 @@ int main()
             printf("%lf %s is equal to %-0.15lf %s",op,unit_from_string,ans,unit_to_string);
             break;
     }
+    char cont;
+    printf("\nDo you want to continue(y/n):\n");
+    while(fgetc(stdin) != '\n');
+    scanf("%c",&cont);
+    if(cont=='y'||cont=='Y')
+    main();
+    else
     return 0;
 }
 
@@ -157,7 +164,7 @@ int unit_type_display(int x, int flag)
 //recieves input for operand to converted
 double operand()
 {
-    double op;
+    double op=0;
     printf("Enter the operand:\n");
     scanf("%lf",&op);
     return op;
