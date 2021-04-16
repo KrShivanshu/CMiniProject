@@ -1,13 +1,22 @@
 # Unit Convertor
 
-Converts unit x to y of length,temperature,volume,area,weight and time type
-
-Build | Code Quality | Unity | Valgrind | Codacy
+Build | Code Quality | Unity | Valgrind | Coverage | Codacy
 ------|----------|-------|----------|------------
-[![C/C++ CI](https://github.com/KrShivanshu/CMiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/c-cpp.yml) | [![cppcheck](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml) | [![Unit testing](https://github.com/KrShivanshu/CMiniProject/actions/workflows/unit-test.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/unit-test.yml) | [![Valgrind](https://github.com/KrShivanshu/CMiniProject/actions/workflows/valgrind.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/valgrind.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f1f3f28ea6bc4f24bf2a16c0d0b46551)](https://www.codacy.com/gh/KrShivanshu/CMiniProject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KrShivanshu/CMiniProject&amp;utm_campaign=Badge_Grade)
+[![C/C++ CI](https://github.com/KrShivanshu/CMiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/c-cpp.yml) | [![cppcheck](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/cppcheck.yml) | [![Unit testing](https://github.com/KrShivanshu/CMiniProject/actions/workflows/unit-test.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/unit-test.yml) | [![Valgrind](https://github.com/KrShivanshu/CMiniProject/actions/workflows/valgrind.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/valgrind.yml) | [![CI-Coverage](https://github.com/KrShivanshu/CMiniProject/actions/workflows/code-coverage.yml/badge.svg)](https://github.com/KrShivanshu/CMiniProject/actions/workflows/code-coverage.yml) |[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f1f3f28ea6bc4f24bf2a16c0d0b46551)](https://www.codacy.com/gh/KrShivanshu/CMiniProject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KrShivanshu/CMiniProject&amp;utm_campaign=Badge_Grade)
 
 ## SDLC Activity Based Learning
 ![Banner](https://github.com/KrShivanshu/CMiniProject/blob/main/6_ImagesAndVideos/Geometric%20Cubes%20Games.jpg)
+
+## Introduction
+Converts unit x to y of length,temperature,volume,area,weight and time type
+
+### Features
+- [ ] Length Conversion
+- [ ] Temperature Conversion
+- [ ] Volume Conversion
+- [ ] Area Conversion
+- [ ] Weight Conversion
+- [ ] Time Conversion
 
 ## Folder Structure
 Folder             | Description
@@ -25,7 +34,14 @@ Folder             | Description
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `264136` | Kumar Shivanshu  | All    | 2     | 2   | 6   | 6     
-   
+
+# Tools used
+
+1.  `Unity`- for unit testing
+2.  `valgrind` & `cpp-check` - to analyze the code
+3.  `Doxygen` - for documenting the file
+4.  `Makefile` - to build, test, run and clean the program
+
 ## Learning Resources
 1.  [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2.  [markdownBasics](https://guides.github.com/features/mastering-markdown/)
