@@ -2,7 +2,6 @@
 #include <string.h>
 #include <length.h>
 #include <temperature.h>
-#include <volume.h>
 #include "volume.h"
 #include "area.h"
 #include "weight.h"
@@ -132,7 +131,7 @@ int main()
     printf("\nDo you want to continue(y/n):\n");
     while(fgetc(stdin) != '\n');
     scanf("%c",&cont);
-    if(cont=='y'||cont=='Y')
+    if(cont=='y'||cont=='Y'||cont=='1')
     main();
     else
     return 0;
