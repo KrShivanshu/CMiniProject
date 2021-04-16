@@ -8,7 +8,7 @@ Build | Code Quality | Unity | Valgrind | Coverage | Codacy
 ![Banner](https://github.com/KrShivanshu/CMiniProject/blob/main/6_ImagesAndVideos/Geometric%20Cubes%20Games.jpg)
 
 ## Introduction
-Converts unit x to y of length,temperature,volume,area,weight and time type
+Converts unit x to y of length, temperature, volume, area, weight and time type
 
 ### Features
 - [ ] Length Conversion
