@@ -12,6 +12,7 @@ src/volume.c\
 src/area.c\
 src/weight.c\
 src/time.c\
+src/toString.c\
 
 # All test source files
 TEST_SRC = src/length.c\
@@ -20,6 +21,7 @@ src/volume.c\
 src/area.c\
 src/weight.c\
 src/time.c\
+src/toString.c\
 test/test.c\
 unity/unity.c\
 
@@ -79,7 +81,7 @@ clean:
 	$(RM) $(call FixPath,$(BUILD)/*)
 	make clean -C doc
 	rmdir $(BUILD) $(DOCUMENTATION_OUTPUT)
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+#   rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
 # Create new build folder if not present
 $(BUILD):

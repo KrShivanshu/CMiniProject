@@ -11,7 +11,7 @@ int area_unit_options(char *c,int x, int flag)
         printf("5 - Square Mile\n");
         printf("6 - Square Yard\n");
         printf("7 - Square Foot\n");
-        printf("8 - Square Foot\n");
+        printf("8 - Square Inch\n");
         printf("9 - Acre\n");
         if(flag)
         scanf("%d",&unit_selected);

@@ -4,6 +4,7 @@
 #include "area.h"
 #include "weight.h"
 #include "time.h"
+#include "toString.h"
 #include "unity.h"
 
 /* Required by the unity test framework */
@@ -15,6 +16,10 @@ void tearDown()
 {
 }
 
+/**
+ * @brief test the functions used in length.c file
+ * 
+ */
 void test_length(void)
 {
     TEST_ASSERT_EQUAL(0, length_unit_options("from",0,0));
@@ -31,10 +36,12 @@ void test_length(void)
     TEST_ASSERT_EQUAL(0, standard_length_unit(10));
 }
 
+/**
+ * @brief test the functions used in temperature.c file
+ * 
+ */
 void test_temperature(void)
 {
-    
-    
     TEST_ASSERT_EQUAL(0, length_unit_options("from",0,0));
     TEST_ASSERT_EQUAL(2, length_unit_options("from",2,0));
     TEST_ASSERT_EQUAL(10, length_unit_options("from",10,0));
@@ -43,10 +50,12 @@ void test_temperature(void)
     TEST_ASSERT_EQUAL(-729.67, convert_temperature(-150,2,3));
     TEST_ASSERT_EQUAL(100.02778, convert_temperature(212.05,3,1));
     TEST_ASSERT_EQUAL(-273.15, convert_temperature(0,2,1));
-
-
 }
 
+/**
+ * @brief test the functions used in volume.c file
+ * 
+ */
 void test_volume(void)
 {   
     TEST_ASSERT_EQUAL(0, volume_unit_options("from",0,0));
@@ -63,6 +72,10 @@ void test_volume(void)
     TEST_ASSERT_EQUAL(0.0009463525, standard_volume_unit(6));
 }
 
+/**
+ * @brief test the functoins used in area.c file
+ * 
+ */
 void test_area(void)
 {   
     TEST_ASSERT_EQUAL(0, area_unit_options("from",0,0));
@@ -80,6 +93,10 @@ void test_area(void)
     TEST_ASSERT_EQUAL(0.83612736, standard_area_unit(6));
 }
 
+/**
+ * @brief tests the funtions used in weight.c file
+ * 
+ */
 void test_weight(void)
 {   
     TEST_ASSERT_EQUAL(0, weight_unit_options("from",0,0));
@@ -97,6 +114,10 @@ void test_weight(void)
     TEST_ASSERT_EQUAL(0.0283495, standard_weight_unit(6));
 }
 
+/**
+ * @brief tests the functions used in time.c file
+ * 
+ */
 void test_time(void)
 {
     TEST_ASSERT_EQUAL(0, time_unit_options("from",0,0));
@@ -114,6 +135,12 @@ void test_time(void)
     TEST_ASSERT_EQUAL(0, standard_time_unit(10));
 }
 
+void test_toString(void)
+{
+    TEST_ASSERT_EQUAL("Wrong Unit", lengthTypeFromIntToString(0));
+    TEST_ASSERT_EQUAL("Mile(s)", lengthTypeFromIntToString(7));
+}
+
 int main(void)
 {
     /* Initiate the Unity Test Framework */
@@ -126,6 +153,7 @@ int main(void)
     RUN_TEST(test_area);
     RUN_TEST(test_weight);
     RUN_TEST(test_time);
+    //RUN_TEST(test_toString);
     
     /* Close the Unity Test Framework */
     return UNITY_END();
